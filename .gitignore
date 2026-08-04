@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 測試用的履歷檔案，屬於個人資料，不要進版控
+/public/*.pdf
