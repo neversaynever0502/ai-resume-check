@@ -127,7 +127,8 @@ export default function ReviewResultView({
               <a
                 key={aspect.id}
                 href={`#aspect-${aspect.id}`}
-                className="group bg-white px-4 py-4 transition-colors hover:bg-stone-50 dark:bg-stone-950 dark:hover:bg-stone-900"
+                // 手機是兩欄，第五個補滿整列，避免右邊留一格空白
+                className="group bg-white px-4 py-4 transition-colors last:col-span-2 hover:bg-stone-50 sm:last:col-span-1 dark:bg-stone-950 dark:hover:bg-stone-900"
               >
                 <div className="flex items-baseline justify-between gap-2">
                   <span className="truncate text-xs text-stone-500 dark:text-stone-400">

@@ -71,7 +71,8 @@ export default function HeroResumeVisual() {
       </div>
 
       {/* 浮在右下角的建議卡：手機縮進版面內，桌機才外掛 */}
-      <div className="relative -mt-6 ml-auto w-[85%] rounded-xl border hairline bg-white p-3.5 shadow-[0_16px_40px_-16px_rgb(28_25_23/0.35)] sm:absolute sm:-right-10 sm:bottom-10 sm:mt-0 sm:w-60 dark:bg-stone-950 dark:shadow-[0_16px_40px_-16px_rgb(0_0_0/0.9)]">
+      {/* 卡片刻意錯開被標註的那一行，不要遮住原句 */}
+      <div className="relative -mt-6 ml-auto w-[85%] rounded-xl border hairline bg-white p-3.5 shadow-[0_16px_40px_-16px_rgb(28_25_23/0.35)] sm:absolute sm:-right-12 sm:-bottom-10 sm:mt-0 sm:w-60 dark:bg-stone-950 dark:shadow-[0_16px_40px_-16px_rgb(0_0_0/0.9)]">
         <div className="flex items-center gap-2">
           <span className="rounded-full bg-red-50 px-2 py-0.5 text-[11px] font-medium text-red-700 ring-1 ring-inset ring-red-600/20 dark:bg-red-950 dark:text-red-300 dark:ring-red-400/25">
             優先處理
